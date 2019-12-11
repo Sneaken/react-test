@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94aaeb7f-2f02-4de0-a6ae-db74a40be6b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="94aaeb7f-2f02-4de0-a6ae-db74a40be6b7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +42,7 @@
     <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="ts.external.directory.path" value="D:\React\test\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="npm.eject">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -111,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576048842711</updated>
-      <workItem from="1576048845976" duration="4879000" />
+      <workItem from="1576048845976" duration="5335000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576053408081</created>
@@ -143,22 +137,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2660" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576053693502" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1576052975888">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1576054198808">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576052975888" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1576052975886">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576054198808" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1576054198808">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576052975886" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1576052975885">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576054198808" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1576054198808">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576052975885" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1576052975887">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576054198808" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1576054198808">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576052975887" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576054198808" />
     <state x="2375" y="246" key="SettingsEditor" timestamp="1576052884171">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
