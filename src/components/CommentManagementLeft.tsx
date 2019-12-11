@@ -1,5 +1,5 @@
 import React, { ChangeEvent, Component } from 'react'
-
+import { Button, Input } from 'antd'
 interface Props {
   handleSubmit: Function
 }
@@ -41,7 +41,7 @@ export default class CommentManagementLeft extends Component<Props, State> {
       <div>
         <label>
           用户名：
-          <input
+          <Input
             type="text"
             value={user}
             onChange={e => this.handleChange(e, 'user')}
@@ -50,14 +50,16 @@ export default class CommentManagementLeft extends Component<Props, State> {
         <br />
         <label>
           评论内容：
-          <input
+          <Input
             type="text"
             value={msg}
             onChange={e => this.handleChange(e, 'msg')}
           />
         </label>
         <br />
-        <button onClick={this.handleClick}>提交评论</button>
+        <Button type="primary" onClick={this.handleClick}>
+          提交评论
+        </Button>
       </div>
     )
   }

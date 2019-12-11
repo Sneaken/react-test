@@ -22,7 +22,6 @@ export default class CommentManagement extends Component<Props, State> {
     }
   }
 
-  static defaultProps = {}
   handleSubmit = (user: string, msg: string) => {
     const list = this.state.list
     this.setState({
