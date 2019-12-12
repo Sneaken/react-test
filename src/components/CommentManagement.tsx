@@ -1,7 +1,8 @@
 import React, { Component, ReactNode } from 'react'
 import CommentManagementLeft from './CommentManagementLeft'
 import CommentManagementRight from './CommentManagementRight'
-
+import styles from './comment-management.module.scss'
+import cs from 'classnames'
 interface Props {}
 
 interface Comment {
@@ -20,6 +21,7 @@ export default class CommentManagement extends Component<Props, State> {
       msg: '',
       list: []
     }
+    console.log(styles['title'])
   }
 
   handleSubmit = (user: string, msg: string) => {
@@ -41,7 +43,13 @@ export default class CommentManagement extends Component<Props, State> {
     const { list } = this.state
     return (
       <div>
-        <h3>评论管理</h3>
+        <h3
+          className={cs(styles['title'], {
+            [styles['label']]: false
+          })}
+        >
+          评论管理
+        </h3>
         <CommentManagementLeft handleSubmit={this.handleSubmit} />
         <CommentManagementRight list={list} handleDelete={this.handleDelete} />
       </div>
