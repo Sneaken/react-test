@@ -21,7 +21,6 @@ export default class CommentManagement extends Component<Props, State> {
       msg: '',
       list: []
     }
-    console.log(styles['title'])
   }
 
   handleSubmit = (user: string, msg: string) => {
@@ -42,7 +41,7 @@ export default class CommentManagement extends Component<Props, State> {
   render(): ReactNode {
     const { list } = this.state
     return (
-      <div>
+      <div className={styles['wrap']}>
         <h3
           className={cs(styles['title'], {
             [styles['label']]: false
@@ -50,8 +49,13 @@ export default class CommentManagement extends Component<Props, State> {
         >
           评论管理
         </h3>
-        <CommentManagementLeft handleSubmit={this.handleSubmit} />
-        <CommentManagementRight list={list} handleDelete={this.handleDelete} />
+        <div className={styles['bottom']}>
+          <CommentManagementLeft handleSubmit={this.handleSubmit} />
+          <CommentManagementRight
+            list={list}
+            handleDelete={this.handleDelete}
+          />
+        </div>
       </div>
     )
   }

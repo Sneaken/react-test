@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
+import styles from './comment-management.module.scss'
+import cs from 'classnames'
 interface Props {
   list: Array<{
     user: string
@@ -10,7 +12,7 @@ interface Props {
 
 function CommentManagementRight(props: Props) {
   return (
-    <div>
+    <div className={styles.right}>
       <h4>评论列表</h4>
       <ul>
         {props.list.length > 0
@@ -20,6 +22,7 @@ function CommentManagementRight(props: Props) {
                   <p>
                     {new Date().toString()} {item.user}说
                     <Button
+                      className={styles.delete}
                       type="danger"
                       onClick={() => props.handleDelete(index)}
                     >

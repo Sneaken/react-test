@@ -1,7 +1,42 @@
-.title {
-  color: red;
+.wrap {
+  margin: 10px;
+  border: 1px solid black;
 }
-
+.title {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  border-right: 1px solid black;
+  flex: 1;
+}
 .label {
-  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  label {
+    padding: 10px;
+  }
+}
+.input {
+  width: 80%;
+  min-width: 300px;
+}
+.button {
+  flex: 1;
+  margin-top: 20px;
+}
+.right {
+  padding: 10px;
+  flex: 1;
+}
+.delete {
+  float: right;
 }
