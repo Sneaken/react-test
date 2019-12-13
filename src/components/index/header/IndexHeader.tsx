@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+import styles from './index.module.scss'
 
 interface Props {}
 
-interface State {}
-
-export default class IndexHeader extends Component<Props, State> {
-  render() {
-    return <div></div>
-  }
+function IndexHeader(props: Props) {
+  return <header className={styles.header}>豆瓣电影</header>
 }
+
+IndexHeader.defaultProps = {}
+
+export default IndexHeader
