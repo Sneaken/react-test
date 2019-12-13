@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
 import styles from './comment-management.module.scss'
-import cs from 'classnames'
+
 interface Props {
   list: Array<{
     user: string

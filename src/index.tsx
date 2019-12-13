@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import CommentManagement from './components/CommentManagement'
+import App from './App'
 
-ReactDOM.render(<CommentManagement />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
