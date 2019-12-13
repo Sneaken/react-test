@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import IndexSearch from '../../components/index/search/IndexSearch'
 import IndexHeader from '../../components/index/header/IndexHeader'
 import { getTop250 } from '../../api'
+import IndexMain from '../../components/index/main/IndexMain'
 
 interface Props {}
 
@@ -29,6 +30,7 @@ export default class Index extends Component<Props, State> {
       <div>
         <IndexHeader />
         <IndexSearch handleSearch={this.handleSearch} />
+        <IndexMain list={this.state.list} />
       </div>
     )
   }
