@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //margin: 10px auto;
+  //&:last-child {
+  //  margin: 10px;
+  //}
+  margin: 10px;
+}
+.no-data {
+  text-align: center;
+}

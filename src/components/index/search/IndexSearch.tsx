@@ -26,9 +26,9 @@ export default class IndexSearch extends Component<Props, State> {
 
   handleSearch = (value: string) => {
     this.props.handleSearch(value)
-    this.setState({
-      input: ''
-    })
+    // this.setState({
+    //   input: ''
+    // })
   }
   render() {
     return (

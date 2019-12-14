@@ -86,3 +86,17 @@ declare interface ITop250 {
   subjects: Array<IMovie>
   title: string
 }
+
+declare interface IMovies {
+  Title: string
+  Year: string
+  imdbID: string
+  Type: string
+  Poster: string
+}
+declare interface ISelectMovie {
+  Search: Array<IMovies>
+  totalResults: string
+  Response: 'True' | 'False'
+  Error?: string
+}
