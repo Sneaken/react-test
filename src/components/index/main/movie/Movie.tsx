@@ -19,7 +19,7 @@ function Movie(props: IProps) {
         <span>{props.content.genres.join('/')}</span>
       </div>
       <div>
-        9<span>片长:</span>
+        <span>片长:</span>
         <span>{props.content.durations[0]}</span>
       </div>
       <div>
