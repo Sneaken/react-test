@@ -100,3 +100,23 @@ declare interface ISelectMovie {
   Response: 'True' | 'False'
   Error?: string
 }
+
+declare interface INewsListContent {
+  aid: string
+  catid: string
+  username: string
+  title: string
+  pic: string
+  dateline: string
+}
+declare interface INewsContent extends INewsListContent {
+  author: string
+  summary: string
+  content: string
+}
+declare interface INewsContentResponse {
+  result: Array<INewsContent>
+}
+declare interface INews {
+  result: Array<INewsListContent>
+}
